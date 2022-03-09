@@ -114,8 +114,7 @@ header {
     margin-left: auto;
     border-bottom: 2px solid #DDD;
     padding: 140px 0 185px 0;
-    background-image: url('/img/watches.jpg');
-    background-repeat: no-repeat;
+    background: url('../img/watches.jpg') no-repeat;
     background-size: 587px 565px;
     background-position: left calc(50% + 538px) bottom;
 }
@@ -204,7 +203,7 @@ footer{
     height: 100%;
     width: 100%;
     max-width: 1250px;
-    background: url('/img/runners.jpg');
+    background: url('../img/runners.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: auto;
