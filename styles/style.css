@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    flex-grow: 1;
+}
+/* GLOBAL STYLES */
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 125px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.global-text-wrapper{
+    width: 490px;
+}
+.text-wrapper-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.text-wrapper-text {
+    width: 450px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777;
+    border-left: 3px solid #777;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+.text-wrapper-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ea625c;
+}
+.text-wrapper-link:hover{
+    opacity: 0.8;
+}
+.text-wrapper-link:active{
+    opacity: 0.6;
+}
+/* /GLOBAL STYLES */
+
+/* HEADER STYLES*/ 
+header {
+    width: 100%;
+    padding: 30px 0;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #333;
+}
+.header-logo {
+    margin-right: auto;
+}
+.header-item {
+    text-decoration: none;
+    color: #333;
+    margin-right: 30px;
+}
+.header-item:nth-child(5){
+    margin-right: 40px;
+}
+.header-form {
+    width: 153px;
+    overflow-x: hidden;
+    color: #666;
+}
+.header-form-input {
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    border-bottom: 1px solid #666;
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+}
+.header-item:hover {
+    opacity: 0.8;
+}
+.header-active-item{
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+}
+/* /HEADER STYLES*/ 
+.hero-section{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid #DDD;
+    padding: 140px 0 185px 0;
+    background-image: url('/img/watches.jpg');
+    background-repeat: no-repeat;
+    background-size: 587px 565px;
+    background-position: left calc(50% + 538px) bottom;
+}
+
+.hero-link {
+    padding: 12px 38.5px;
+}
+.features{
+    width: 100%;
+    padding: 68px 0;
+    margin-bottom: 70px;
+}
+.features-list {
+    display: flex;
+}
+.features-list-item {
+    width: 280px;
+    margin-right: 80px;
+}
+.features-list-item:nth-child(3) {
+    margin-right: 0;
+}
+.features-list-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.features-list-item-p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.squares {
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 18px 0px 0px #ddd,
+                36px 0px 0px #ddd;
+}
+.features-list-item-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-transform: uppercase;
+    color: #ea625c;
+}
+.features-list-item-link-hr {
+    width: 40px;
+    margin-right: 10px;
+    background-color: #EA625C;
+    border: 2px solid #EA625C;
+}
+
+
+/* SELLING SECTION STYLES */
+.selling-section {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.selling-container{
+    width: 100%;
+    display: flex;
+}
+.selling-text-wrapper{
+    margin-right: auto;
+}
+.selling-link{
+    padding: 12px 90px;
+}
+/* /SELLING SECTION STYLES */
+
+
+/* FOOTER SECTION STYLES */
+footer{
+    height: 100%;
+    width: 100%;
+    max-width: 1250px;
+    background: url('/img/runners.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 240px 0;
+}
+.footer-content {
+    margin-left: auto;
+}
+.footer-content-title {
+    color: #fff;
+}
+.footer-content-paragraph {
+    color: #fff;
+    border-left: 3px solid #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+.footer-content-link {
+    padding: 12px 46px;
+}
+/* /FOOTER SECTION STYLES */
+
